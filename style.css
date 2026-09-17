@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    font-family: "Lato", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+}
+
+table td:first-child {
+  width: 100px;
+}
+
+main {
+  flex: 1;
+}
+
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+header {
+  background-color: rgb(51, 49, 49);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.5s;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #00aaff;
+  background-color: rgba(79, 109, 126, 0.103);
+  font-size: 1.6em;
+  border-bottom: 2px solid;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(51, 49, 49);
+  border-top: 20px rgba(36, 33, 33, 0.726) solid;
+  padding: 80px;
+}
